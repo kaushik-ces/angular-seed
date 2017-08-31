@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- CSS files -->
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+		<title>PUD</title>
+	</head>
+
+	<body ng-app="myApp">
+		<div ui-view></div>
+	</body>
+
+	<!-- Start of scripts -->
+	    <!-- node modules -->
+		<script src="node_modules/angular/angular.min.js"></script>
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	
+		<!-- Custom Scripts -->
+		<script src="app/app.module.js"></script>
+		<!-- Features -->
+		<!-- BD -->
+		<script src="app/features/bd/bd.module.js"></script>
+		<script src="app/features/bd/bd.route.js"></script>
+		<script src="app/features/bd/bd.controller.js"></script>
+
+	<!-- End of Scripts -->
+</html>

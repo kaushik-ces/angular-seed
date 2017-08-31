@@ -1,0 +1,27 @@
+{
+  "name": "angular-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushik-ces/angular-seed.git"
+  },
+  "author": "Kaushik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaushik-ces/angular-seed/issues"
+  },
+  "homepage": "https://github.com/kaushik-ces/angular-seed#readme",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-ui-router": "^1.0.3",
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "jquery": "^3.2.1"
+  }
+}
